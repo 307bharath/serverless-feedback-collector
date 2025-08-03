@@ -23,7 +23,7 @@ This project is a serverless feedback collection system built using AWS services
    - Sends a confirmation email via **SES** *(optional)*.
 4. All events are logged in **CloudWatch Logs** for observability.
 
-5. ![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.png)
 
 ---
 
@@ -36,33 +36,17 @@ This project is a serverless feedback collection system built using AWS services
 - Logging and monitoring with CloudWatch
 - IAM-based security and resource access control
 
----
-
-## 📁 Suggested Repository Structure
-
-serverless-feedback-collector/
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── backend/
-│   └── lambda/
-│       └── submitFeedback.js
-├── infrastructure/
-│   └── cloudformation.yaml (or Terraform if used)
-├── architecture-diagram.png
-└── README.md
-
-
 
 ---
 ## 📸 Screenshots
-- ![Feedback form UI](image.png)
-- ![DynamoDB table entries](image-1.png)
-- ![S3 file uploads](image-2.png)
-- ![CloudWatch log sample](image-3.png)
-
-
+- Feedback form UI
+![Feedback form UI](image.png)
+- DynamoDB table entries
+![DynamoDB table entries](image-1.png)
+- S3 file uploads
+![S3 file uploads](image-2.png)
+- CloudWatch log sample
+![CloudWatch log sample](image-3.png)
 ---
 
 ## 🧠 Lessons Learned
